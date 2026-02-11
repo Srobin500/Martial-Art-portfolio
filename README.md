@@ -1,2 +1,2 @@
 # Martial-Art-portfolio
-skills and Achievements 
+Skills and Achievements 

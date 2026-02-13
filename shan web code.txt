@@ -97,13 +97,11 @@
   </section>
 
   <!-- Media -->
-<img src="ShannahRobin.jpg" alt="Martial arts photo 1">﻿
-
   <section id="media">
     <h2>Media</h2>
     <div class="media">
       <!-- Replace with your own images or videos -->
-      <img src="your-photo1.jpg" alt="Martial arts photo 1">
+      <img src="ShannahRobin.jpg" alt="Martial arts photo 1">﻿
       <img src="your-photo2.jpg" alt="Martial arts photo 2">
       <!-- Example for video -->
       <!-- <video controls src="your-video.mp4"></video> -->

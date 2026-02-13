@@ -1,0 +1,126 @@
+<img src="ShannahRobin.jpg" alt="Martial arts photo 1">﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rob Shan - Martial Arts Portfolio</title>
+  <style>
+    /* Reset & basic styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
+    a { text-decoration: none; color: #8B0000; }
+    ul { list-style-type: none; }
+
+    /* Header / Hero */
+    header { background: #8B0000; color: white; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 3em; margin-bottom: 10px; }
+    header p { font-size: 1.2em; }
+
+    /* Navigation */
+    nav { background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+    nav ul { display: flex; justify-content: center; flex-wrap: wrap; }
+    nav li { margin: 0 20px; }
+    nav a { padding: 15px 0; display: block; font-weight: bold; }
+
+    /* Sections */
+    section { max-width: 1000px; margin: 40px auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    section h2 { color: #8B0000; margin-bottom: 20px; font-size: 2em; }
+    section p, section ul li { margin-bottom: 10px; font-size: 1.1em; }
+
+    /* Media gallery */
+    .media { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .media img, .media video { max-width: 300px; border-radius: 8px; }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px; background: #333; color: white; margin-top: 40px; }
+
+    /* Smooth scrolling */
+    html { scroll-behavior: smooth; }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      nav ul { flex-direction: column; }
+      nav li { margin: 10px 0; }
+      .media img, .media video { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Rob Shan</h1>
+    <p>Martial Artist | Instructor | Motivational Speaker</p>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a dedicated martial artist with years of experience in karate, teaching, and competing in international tournaments. Martial arts have shaped my life, giving me discipline, focus, and the ability to inspire others to reach their potential.  
+      I also have experience in construction, farming, massage therapy, and motivational speaking.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience & Skills</h2>
+    <ul>
+      <li>World Karate Champion, Trinidad</li>
+      <li>Dojo Instructor – Teaching students of all ages</li>
+      <li>Martial arts mentoring and motivational speaking</li>
+      <li>Massage therapy, construction, and farming</li>
+      <li>Expertise in Karate, self-defense, and personal development</li>
+    </ul>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Gold Medals in International Karate Competitions</li>
+      <li>Certified Karate Instructor</li>
+      <li>Founder of Robin Ryu Karate Program</li>
+      <li>Transforming lives through martial arts and discipline</li>
+    </ul>
+  </section>
+
+  <!-- Media -->
+  <section id="media">
+    <h2>Media</h2>
+    <div class="media">
+      <!-- Replace with your own images or videos -->
+      <img src="your-photo1.jpg" alt="Martial arts photo 1">
+      <img src="your-photo2.jpg" alt="Martial arts photo 2">
+      <!-- Example for video -->
+      <!-- <video controls src="your-video.mp4"></video> -->
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    <p>Follow me on social media: <a href="https://instagram.com/">Instagram</a> | <a href="https://facebook.com/">Facebook</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 Rob Shan. All rights reserved.
+  </footer>
+
+</body>
+
+</html>
